@@ -1,5 +1,5 @@
 # Aleksey Putilov
-![](C:\RSSchool\project_rss\rsschool-cv\Avatar.jpg)
+![ ](C:\RSSchool\project_rss\rsschool-cv\Avatar.jpg)
 ### Contacts
 * **Location:** Perm Russia
 * **Phone:** +7 (919) 443-48-49
