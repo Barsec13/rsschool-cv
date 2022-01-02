@@ -21,52 +21,43 @@ footer{
   .container {
     max-width: 1440px;
     margin: 0 auto;
-  }
+}
 
-  .nav-list {
+.nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    }
-    .nav-link {
-        padding: 0 20px;
-        line-height: 50px;
-        outline: none;
-        text-decoration: none;
-      }
-      a:link {
-        color: black;
-      }
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    outline: none;
+    text-decoration: none;
+}
+a:link {
+    color: black;
+}
       
-      a:visited {
-        color: black;
-      }
+a:visited {
+    color: black;
+}
       
-      a:focus {
-        border-bottom: 1px solid;
-        background: #f0de3e;
-      }
+a:focus {
+    border-bottom: 1px solid;
+    background: #f0de3e;
+}
       
-      a:hover {
-        border-bottom: 1px solid;
-        background: #f0de3e;;
-      }
+a:hover {
+    border-bottom: 1px solid;
+    background: #f0de3e;;
+}
       
-      a:active {
-        background: #d45a6b;
-        color: #000000;
-      }
-
-      .section-item a {
-        color: #829985;
-        text-decoration: none;  
-        transition: color 0.5s;
-      }
-      .section-item a:hover {
-        color: #4d2323;
-      }
-  html {
+a:active {
+    background: #d45a6b;
+    color: #000000;
+}
+html {
     scroll-behavior: smooth;
     
-  }
+}
