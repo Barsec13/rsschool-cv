@@ -1,5 +1,5 @@
 # Aleksey Putilov
-![Photo](Avatar.jpg)
+![Photo](assets/img/Avatar.jpg)
 ### Contacts
 * **Location:** Perm Russia
 * **Phone:** +7 (919) 443-48-49
