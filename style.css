@@ -1,0 +1,132 @@
+header{
+   
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(223, 223, 223);
+}
+
+main{
+    font-family: 'Roboto Mono', monospace;
+    
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: calc(100vw - 283px);
+    left: 250px;
+    background-color: rgb(255, 255, 255);
+   
+}
+footer{
+    
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(223, 223, 223);
+}
+* {
+    box-sizing: border-box;
+  }
+
+  .container {
+    
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    list-style: none;  
+}
+.nav-link {
+    padding: 0 calc(100vw/7 - 150px);
+    line-height: 50px;
+    outline: none;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact-link {
+    outline: none;
+    text-decoration: none;
+}
+
+.contact-text{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    text-align:left;
+    line-height: 30px;
+}
+
+.contact-title{
+    background-color: burlywood;
+}
+a:link {
+    color: black;
+}
+      
+a:visited {
+    color: black;
+}
+      
+a:focus {
+    border-bottom: 1px solid;
+    background: #f0de3e;
+}
+      
+a:hover {
+    border-bottom: 1px solid;
+    background: #f0de3e;;
+}
+      
+a:active {
+    background: #d45a6b;
+    color: #000000;
+}
+html {
+    scroll-behavior: smooth;   
+}
+
+aside{
+    font-family: 'Roboto Mono', monospace;
+    
+    position:absolute;
+    left: 8px; 
+    top: 92px;
+    height: 100%;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+}
+
+.section {
+    display: contents;
+  }
+
+.section-title{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px;
+    background-color: rgb(223, 223, 223);
+}
+
+.section-text{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 25px;
+  line-height: 30px;
+  
+}
+
+.code{
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
